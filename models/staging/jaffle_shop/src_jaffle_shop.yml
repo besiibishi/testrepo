@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: workspace     # THIS IS YOUR CATALOG
+    schema: dbt_besiibishi  # THIS IS YOUR SCHEMA
+    tables:
+      - name: customers
+      - name: orders
